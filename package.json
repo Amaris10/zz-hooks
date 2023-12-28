@@ -1,0 +1,23 @@
+{
+  "name": "zz-hooks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "zz-fe-lint-scan": "zz-fe-lint scan",
+    "zz-fe-lint-fix": "zz-fe-lint fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "zz-fe-lint": "^0.0.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "zz-fe-lint commit-file-scan",
+      "commit-msg": "zz-fe-lint commit-msg-scan"
+    }
+  }
+}
