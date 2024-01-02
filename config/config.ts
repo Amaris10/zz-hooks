@@ -1,3 +1,5 @@
+import { menus } from './hooks';
+
 export default {
   base: '/zz-hooks',
   theme: {
@@ -29,7 +31,8 @@ export default {
   manifest: {},
   hash: true,
   alias: {
-    //encodeHooks: process.cwd() + '/packages/hooks/src/index.ts',
+    zzHooks: process.cwd() + '/packages/hooks/src/index.ts',
+    ['zz-hooks']: process.cwd() + '/packages/hooks/src/index.ts',
   },
   resolve: {
     includes: ['docs', 'packages/hooks/src'],
@@ -58,5 +61,6 @@ export default {
         path: '/guide',
       },
     ],
+    '/hooks': menus,
   },
 };

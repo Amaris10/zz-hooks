@@ -1,0 +1,24 @@
+{
+  "root": true,
+  "compilerOptions": {
+    "target": "ES5",
+    "jsx": "react",
+    "moduleResolution": "node",
+    "downlevelIteration": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "zzHooks": ["./packages/hooks/src/index.ts"],
+      "zz-hooks": ["./packages/hooks/src/index.ts"],
+      "zzHooks/lib/*": ["./packages/hooks/src/*"],
+      "zz-hooks/lib": ["./packages/hooks/src/*"]
+    },
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "strictNullChecks": true,
+    "importHelpers": true
+  },
+  "exclude": ["node_modules", "lib", "es", "dist", "example"]
+}
