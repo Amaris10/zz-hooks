@@ -10,16 +10,16 @@
   "main": "./lib/index.js",
   "module": "./es/index.js",
   "types": "./lib/index.d.ts",
-  "unpkg": "dist/encode-hooks.js",
+  "unpkg": "dist/zzHooks.js",
   "sideEffects": false,
-  "authors": "chenghuai",
+  "authors": "amaris10",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
-  "repository": "https://github.com/Amaris10/zz-hooks",
-  "homepage": "https://github.com/Amaris10/zz-hooks",
+  "repository": "https://github.com/amaris10/zz-hooks",
+  "homepage": "https://Amaris10.github.io/zz-hooks/",
   "scripts": {
-    "build": "gulp && webpack-cli"
+    "build": " gulp  && export NODE_OPTIONS=--openssl-legacy-provider && webpack-cli"
   },
   "files": [
     "dist",

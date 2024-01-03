@@ -1,3 +1,3 @@
 import useToggle from './useToggle';
-
-export { useToggle };
+import useBoolean from './useBoolean';
+export { useToggle, useBoolean };

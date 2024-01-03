@@ -1,7 +1,7 @@
 ---
 title: 首页
 hero:
-  image: /zzhooks-logo.png
+  image: https://pic.imgdb.cn/item/6593c997c458853aefac9a5b.png
   desc: 吱吱前端 React 业务 Hooks
   actions:
     - text: 指南

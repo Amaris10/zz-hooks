@@ -6,6 +6,7 @@ export default {
     // 修改 dumi 默认主题的主色，更多变量详见：https://github.com/umijs/dumi/blob/1.x/packages/theme-default/src/style/variables.less
     '@c-primary': '#EDA667',
   },
+  runtimePublicPath: true,
   exportStatic: {},
   nodeModulesTransform: {
     type: 'none',
@@ -25,8 +26,8 @@ export default {
   ],
   mode: 'site',
   title: 'zz-hooks',
-  favicon: '/zizi.svg',
-  logo: '/zizi.svg',
+  favicon: 'https://pic.imgdb.cn/item/6593c99ec458853aefacaf40.png',
+  logo: 'https://pic.imgdb.cn/item/6593c99ec458853aefacaf40.png',
   dynamicImport: {},
   manifest: {},
   hash: true,

@@ -4,7 +4,7 @@
  */
 
 import React from 'react';
-import { useToggle } from 'zz-hooks';
+import { useToggle } from 'zzHooks';
 
 export default () => {
   const [state, { toggle, setLeft, setRight }] = useToggle();

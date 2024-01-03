@@ -1,0 +1,6 @@
+{
+  "extends": "../../tsconfig.zzhooks.json",
+  "compilerOptions": {
+    "rootDir": "src"
+  }
+}
