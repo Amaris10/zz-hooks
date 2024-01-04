@@ -5,8 +5,8 @@ const path = require('path');
 module.exports = merge(common, {
   entry: './es/index.js',
   output: {
-    filename: 'zzHooks.js',
-    library: 'zzHooks',
+    filename: 'zz-hooks.js',
+    library: 'zz-hooks',
     path: path.resolve(__dirname, './dist'),
   },
 });

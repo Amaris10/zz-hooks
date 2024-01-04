@@ -4,7 +4,7 @@
  */
 
 import React from 'react';
-import { useBoolean } from 'zzHooks';
+import { useBoolean } from 'zz-hooks';
 
 export default () => {
   const [state, { toggle, setTrue, setFalse }] = useBoolean(true);
