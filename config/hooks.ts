@@ -1,7 +1,7 @@
 export const menus = [
   {
     title: 'Effect',
-    children: ['useDebounceFn', 'useThrottleFn'],
+    children: ['useDebounceFn', 'useThrottleFn', 'useUpdateEffect'],
   },
   {
     title: 'DOM',
@@ -13,7 +13,19 @@ export const menus = [
   },
   {
     title: '状态',
-    children: ['useBoolean', 'useToggle', 'useDebounce'],
+    children: [
+      'useBoolean',
+      'useToggle',
+      'useDebounce',
+      'useCookieState',
+      'useGetState',
+      'useLocalStorageState',
+      'useSessionStorageState',
+      'useMap',
+      'useSet',
+      'usePrevious',
+      'useResetState',
+    ],
   },
   {
     title: '进阶',

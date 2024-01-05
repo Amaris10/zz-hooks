@@ -9,6 +9,14 @@ import useThrottle from './useThrottle';
 import useMemoizedFn from './useMemoizedFn';
 import useTitle from './useTitle';
 import useCookieState from './useCookieState';
+import useGetState from './useGetState';
+import useUpdateEffect from './useUpdateEffect';
+import useLocalStorageState from './useLocalStorageState';
+import useSessionStorageState from './useSessionStorageState';
+import useMap from './useMap';
+import useSet from './useSet';
+import useResetState from './useResetState';
+import usePrevious from './usePrevious';
 export {
   useToggle,
   useBoolean,
@@ -21,4 +29,12 @@ export {
   useMemoizedFn,
   useTitle,
   useCookieState,
+  useGetState,
+  useUpdateEffect,
+  useLocalStorageState,
+  useSessionStorageState,
+  useMap,
+  useSet,
+  useResetState,
+  usePrevious,
 };
