@@ -5,4 +5,20 @@ import useUnmount from './useUnmount';
 import useDebounceFn from './useDebounceFn';
 import useDebounce from './useDebounce';
 import useThrottleFn from './useThrottleFn';
-export { useToggle, useBoolean, useLatest, useUnmount, useDebounceFn, useDebounce, useThrottleFn };
+import useThrottle from './useThrottle';
+import useMemoizedFn from './useMemoizedFn';
+import useTitle from './useTitle';
+import useCookieState from './useCookieState';
+export {
+  useToggle,
+  useBoolean,
+  useLatest,
+  useUnmount,
+  useDebounceFn,
+  useDebounce,
+  useThrottleFn,
+  useThrottle,
+  useMemoizedFn,
+  useTitle,
+  useCookieState,
+};

@@ -1,0 +1,34 @@
+/**
+ * title: setState 可以接受函数
+ * desc: useCookieState 的 setState 可以接收function updater，就像 useState 那样。
+ */
+import React from 'react';
+import { useCookieState } from 'zz-hooks';
+
+export default () => {
+  const [value, setValue] = useCookieState('useCookieStateUpdater', {
+    defaultValue: '0',
+  });
+  return (
+    <>
+      <p>{value}</p>
+      <button
+        type="button"
+        style={{ marginRight: '16px' }}
+        onClick={() => setValue((v) => String(Number(v) + 1))}
+      >
+        inc +
+      </button>
+      <button
+        type="button"
+        style={{ marginRight: '16px' }}
+        onClick={() => setValue((v) => String(Number(v) - 1))}
+      >
+        dec -
+      </button>
+      <button type="button" style={{ marginRight: '16px' }} onClick={() => setValue('0')}>
+        reset
+      </button>
+    </>
+  );
+};
