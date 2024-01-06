@@ -8,7 +8,7 @@ export interface Actions {
   toggle: () => void;
 }
 
-export default function useBoolea(defaultValue = false): [boolean, Actions] {
+export default function useBoolean(defaultValue = false): [boolean, Actions] {
   const [state, { toggle, set }] = useToggle(!!defaultValue);
 
   const actions: Actions = useMemo(() => {

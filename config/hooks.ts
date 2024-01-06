@@ -5,7 +5,24 @@ export const menus = [
   },
   {
     title: 'DOM',
-    children: ['useTitle'],
+    children: [
+      'useTitle',
+      'useClickAway',
+      'useDocumentVisibility',
+      'useDrop',
+      'useEventListener',
+      'useEventTarget',
+      'useFullscreen',
+      'useHover',
+      'useInViewport',
+      'useLongPress',
+      'useMouse',
+      // 'useKeyPress',
+      // 'useMutationObserver',
+      // 'useResponsive',
+      // 'useScroll',
+      // 'useSize',
+    ],
   },
   {
     title: '生命周期',
@@ -25,10 +42,15 @@ export const menus = [
       'useSet',
       'usePrevious',
       'useResetState',
+      'useRafState',
     ],
   },
   {
     title: '进阶',
     children: ['useLatest', 'useMemoizedFn'],
+  },
+  {
+    title: '请求',
+    children: [],
   },
 ];
