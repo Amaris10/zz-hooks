@@ -17,7 +17,7 @@ export const menus = [
       'useInViewport',
       'useLongPress',
       'useMouse',
-      // 'useKeyPress',
+      'useKeyPress',
       // 'useMutationObserver',
       // 'useResponsive',
       // 'useScroll',

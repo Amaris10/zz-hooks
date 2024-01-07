@@ -29,6 +29,7 @@ import useHover from './useHover';
 import useInViewport from './useInViewport';
 import useLongPress from './useLongPress';
 import useMouse from './useMouse';
+import useKeyPress from './useKeyPress';
 export {
   useToggle,
   useBoolean,
@@ -61,4 +62,5 @@ export {
   useInViewport,
   useLongPress,
   useMouse,
+  useKeyPress,
 };
