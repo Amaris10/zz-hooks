@@ -30,7 +30,12 @@ import useInViewport from './useInViewport';
 import useLongPress from './useLongPress';
 import useMouse from './useMouse';
 import useKeyPress from './useKeyPress';
+import useMutationObserver from './useMutationObserver';
+import { configResponsive, useResponsive } from './useResponsive';
+import useScroll from './useScroll';
+import useSize from './useSize';
 export {
+  configResponsive,
   useToggle,
   useBoolean,
   useLatest,
@@ -63,4 +68,8 @@ export {
   useLongPress,
   useMouse,
   useKeyPress,
+  useMutationObserver,
+  useResponsive,
+  useScroll,
+  useSize,
 };
