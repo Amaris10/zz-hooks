@@ -34,7 +34,11 @@ import useMutationObserver from './useMutationObserver';
 import { configResponsive, useResponsive } from './useResponsive';
 import useScroll from './useScroll';
 import useSize from './useSize';
+import useCreation from './useCreation';
+import useUpdate from './useUpdate';
+import useRequest, { clearCache } from './useRequest';
 export {
+  clearCache,
   configResponsive,
   useToggle,
   useBoolean,
@@ -72,4 +76,7 @@ export {
   useResponsive,
   useScroll,
   useSize,
+  useCreation,
+  useRequest,
+  useUpdate,
 };
